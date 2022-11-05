@@ -1,6 +1,6 @@
 import { Provider, Signer } from "@reef-defi/evm-provider";
 import { web3Accounts, web3Enable } from "@reef-defi/extension-dapp";
-import { WsProvider } from "@polkadot/rpc-provider";
+import { WsProvider } from "@polkadot/api";
 
 let provider;
 
